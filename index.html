@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            user-select: none;
+        }
+        .columna{
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #000;
+        }
+        .active {
+            background-color: aqua;
+        }
+        .fila{
+            display: flex;
+        }
+        .cursor{
+            cursor: pointer;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+    <div id="respuesta">
+        <div class="fila">
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+        </div>
+        <div class="fila">
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+        </div>
+        <div class="fila">
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+        </div>
+        <div class="fila">
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+        </div>
+        <div class="fila">
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+        </div>
+        <div class="fila">
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+        </div>
+        <div class="fila">
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+        </div>
+        <div class="fila">
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna"></div>
+            <div class="columna cursor" onclick="toggleMovimientos()">
+                <img src="./caballo.png" alt="">
+            </div>
+            <div class="columna"></div>
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
